@@ -1,0 +1,14 @@
+Total rows: 5000, columns: 9. Duplicate rows removed: 0.
+Missing values by column: {'OrderID': 0, 'OrderDate': 0, 'Category': 0, 'Region': 0, 'Sales': 0, 'Quantity': 0, 'Discount': 0, 'SubCategory': 0, 'Profit': 0}.
+Category profit ranking:
+ - Office Supplies: Profit=361926.02, Sales=1740835.00, Orders=1716, AvgMargin=20.71%
+ - Furniture: Profit=330860.84, Sales=1677712.08, Orders=1655, AvgMargin=19.80%
+ - Technology: Profit=325265.99, Sales=1642176.57, Orders=1629, AvgMargin=19.77%
+Top 5 sub-categories by profit:
+ - Storage (Office Supplies): Profit=96808.28, Sales=465289.97
+ - Paper (Office Supplies): Profit=88934.26, Sales=427307.66
+ - Binders (Office Supplies): Profit=88670.82, Sales=424118.79
+ - Bookcases (Furniture): Profit=87760.78, Sales=446475.37
+ - Art (Office Supplies): Profit=87512.66, Sales=424118.58
+Correlation (InventoryProxy vs Profit): -0.4030
+Correlation (InventoryProxy vs ProfitMargin): 0.0032
